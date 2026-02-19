@@ -1,0 +1,17 @@
+{
+  "name": "webhdmi",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot ./src/index.html",
+    "build": "bun build ./src/index.html --minify --target browser --outdir ./dist"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "preact": "^10.28.4"
+  }
+}
